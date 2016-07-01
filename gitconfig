@@ -1,0 +1,21 @@
+[push]
+  default = current
+[color]
+  ui = auto
+[alias]
+  aa = add --all
+  ap = add --patch
+  ci = commit -v
+  co = checkout
+  pf = push --force-with-lease
+  st = status
+[core]
+  autocrlf = input
+[merge]
+  ff = only
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[include]
+  path = next
