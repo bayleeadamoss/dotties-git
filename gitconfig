@@ -6,3 +6,5 @@
   autocrlf = input
 [rebase]
   autosquash = true
+[include]
+  path = .next.gitconfig
